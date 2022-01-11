@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const ProfileMenuContainer = styled.div`
 
   width: 70vw;
-  height: 570px;
+  height: 80%;
   border-radius: 30px;
   background-color: #f9f9f9;
   box-shadow: 0px 0px 20px #d5d5d5;

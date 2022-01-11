@@ -32,7 +32,7 @@ const Nav = () => {
 
     <NavContainer>
 
-      <Link to="/list" style={{ textDecoration: 'none' }}><NavList /></Link>
+      <Link to="/ " style={{ textDecoration: 'none' }}><NavList /></Link>
       <Link to="/search" style={{ textDecoration: 'none' }}><NavSearch /></Link>
       <Link to="/chat" style={{ textDecoration: 'none' }}><NavChat /></Link>
       <Link to="/mypage" style={{ textDecoration: 'none' }}><NavMyPage /></Link>

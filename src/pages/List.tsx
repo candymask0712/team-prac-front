@@ -1,11 +1,16 @@
 import React from 'react';
+import GoodsImg from '../components/goods/GoodsImg';
+import GoodsInfo from '../components/goods/GoodsInfo';
+import WriterInfo from '../components/WriterInfo';
 
-const List = () => {
+function GoodsDetails() {
   return (
-    <div>
-      리스트페이지
-    </div>
+    <main>
+      <GoodsImg></GoodsImg>
+      <WriterInfo></WriterInfo>
+      <GoodsInfo></GoodsInfo>
+    </main>
   );
-};
+}
 
-export default List;
+export default GoodsDetails;

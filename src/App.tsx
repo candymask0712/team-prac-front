@@ -1,25 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Nav from './components/Nav';
+
+import styled from "styled-components";
+import { useMediaQuery } from 'react-responsive'
+import { Route, Routes } from 'react-router';
+
+import Chat from './pages/Chat';
+import List from './pages/List';
+import MyPage from './pages/MyPage';
+import Search from './pages/Search';
+import Title from './components/Title';
+
+export const AppContainer = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+    text-decoration-line: none;
+    background-color: #f9f9f9;
+`;
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      {/* <Title /> */}
+      <Routes>
+        <Route path="/list" element={<List/>} />
+        <Route path="/search" element={<Search/>} />
+        <Route path="/chat" element={<Chat/>} />
+        <Route path="/mypage" element={<MyPage/>} />
+      </Routes>
+      <Nav />
+    </AppContainer>
   );
 }
 

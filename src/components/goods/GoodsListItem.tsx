@@ -12,7 +12,7 @@ const StLink = styled(Link)`
 `;
 
 const GoodsItemWrapper = styled.li`
-  width: 100vw;
+  width: 90%;
   height: 15vh;
   padding: 10px 20px;
   display: flex;

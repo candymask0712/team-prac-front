@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 
 export const NavContainer = styled.div`
+
   text-decoration-line: none;
 
   display: flex;
@@ -17,10 +18,9 @@ export const NavContainer = styled.div`
   background-color: #fffefe;
   position: fixed;
   bottom: 0;
-  width: 350px;
-  height: 70px;
+  width: 100%;
+  height: 8%;
   border-radius:10px;
-  /* border-top: 0.5px solid grey; */
 
 `;
 
@@ -34,7 +34,7 @@ const Nav = () => {
 
       <Link to="/ " style={{ textDecoration: 'none' }}><NavList /></Link>
       <Link to="/search" style={{ textDecoration: 'none' }}><NavSearch /></Link>
-      <Link to="/chat" style={{ textDecoration: 'none' }}><NavChat /></Link>
+      <Link to="/login" style={{ textDecoration: 'none' }}><NavChat /></Link>
       <Link to="/mypage" style={{ textDecoration: 'none' }}><NavMyPage /></Link>
 
     </NavContainer>

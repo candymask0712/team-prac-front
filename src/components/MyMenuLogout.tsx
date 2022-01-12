@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from "styled-components";
 
-export const MyMenuMyGoodsContainer = styled.div`
+export const MyMenuLogoutContainer = styled.div`
   width: 240px;
   height: 50px;
   border-radius: 10px;
@@ -20,18 +19,18 @@ export const MyMenuMyGoodsContainer = styled.div`
   font-weight: bold;
 `;
 
-export const MyMenuMyGoodsIcon = styled.img`
+export const MyMenuLogoutIcon = styled.img`
   margin: 10px;
-  height: 28px;
+  height: 33px;
 `;
 
-const MyMenuMyGoods = () => {
+const MyMenuLogout = () => {
   return (
-    <MyMenuMyGoodsContainer>
-      <MyMenuMyGoodsIcon src="/icons/mygoods.png" />
-      나의 판매내역
-    </MyMenuMyGoodsContainer>
+    <MyMenuLogoutContainer>
+      <MyMenuLogoutIcon src="/icons/logout.png" />
+      로그아웃 하기
+    </MyMenuLogoutContainer>
   );
 };
 
-export default MyMenuMyGoods;
+export default MyMenuLogout;

@@ -10,7 +10,7 @@ export const ChatTitle = styled.div`
   margin-top: 3px;
   color : #323232;
   font-family: Nanum Barun Gothic;
-  font-size : 12px;
+  font-size : 9px;
   font-weight: bold;
 `;
 
@@ -22,9 +22,8 @@ export const ChatIcon = styled.img`
 const NavChat = () => {
   return (
     <NavChatContainer>
-      {/* <BsFillChatRightTextFill size="23" color='grey' /> */}
-      <ChatIcon src="/icons/chat.png"/>
-      <ChatTitle>채팅</ChatTitle>
+      <ChatIcon src="/icons/join.png"/>
+      <ChatTitle>로그인</ChatTitle>
     </NavChatContainer>
   );
 };

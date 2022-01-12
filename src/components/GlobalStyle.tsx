@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
     margin-bottom: 8vh;
     background-color: aliceblue;
   }
+  
 `;
 
 export default GlobalStyle;

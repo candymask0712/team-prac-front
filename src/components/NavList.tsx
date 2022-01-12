@@ -11,7 +11,7 @@ export const ListTitle = styled.div`
   margin-top: 3px;
   color : #323232;
   font-family: Nanum Barun Gothic;
-  font-size : 12px;
+  font-size : 9px;
   font-weight: bold;
 `;
 

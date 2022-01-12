@@ -11,15 +11,19 @@ import Login from './pages/Login';
 import Join from './pages/Join';
 import Home from './pages/Home';
 import List from './pages/List';
+import GoodsPhoto from './components/goods/GoodsPhoto';
 
 
 export const AppContainer = styled.div`
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-    text-decoration-line: none;
-    /* background-color: #f9f9f9; */
+  text-decoration-line: none;
+  background-color: #f9f9f9;
 `;
 
 

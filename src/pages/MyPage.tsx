@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import MyFavorite from "../components/MyFavorite";
 import Profile from "../components/Profile";
 import MyMenu from "../components/MyMenu";
 
-export const MyPageContainer = styled.div`
+export const LoginContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,10 +15,8 @@ export const MyPageContainer = styled.div`
 const MyPage = () => {
   return (
     <>
-      <MyPageContainer>
-        <Profile />
-        <MyMenu />
-      </MyPageContainer>
+      <Profile />
+      <MyMenu />
     </>
   );
 };

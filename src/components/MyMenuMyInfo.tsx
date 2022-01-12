@@ -22,17 +22,17 @@ export const MyMenuMyGoodsContainer = styled.div`
 
 export const MyMenuMyGoodsIcon = styled.img`
   margin: 10px;
-  height: 30px;
+  height: 33px;
 `;
 
 
-const MyMenuMyGoods = () => {
+const MyMenuMyInfo = () => {
   return (
     <MyMenuMyGoodsContainer>
-      <MyMenuMyGoodsIcon src="/icons/mygoods.png" />
-      나의 정보 수정
+      <MyMenuMyGoodsIcon src="/icons/correct.png" />
+      나의 정보수정
     </MyMenuMyGoodsContainer>
   );
 };
 
-export default MyMenuMyGoods;
+export default MyMenuMyInfo;

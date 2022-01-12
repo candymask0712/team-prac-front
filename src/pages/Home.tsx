@@ -4,7 +4,7 @@ import goodslist from '../data/goodslist';
 import GoodsListItem from '../components/goods/GoodsListItem';
 
 const Header = styled.header`
-  width: 100vw;
+  width: 98%;
   height: 8vh;
   background-color: beige;
 `;

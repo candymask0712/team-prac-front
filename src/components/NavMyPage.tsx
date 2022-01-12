@@ -1,6 +1,4 @@
-import React from 'react';
 import styled from "styled-components";
-import { darken, lighten } from 'polished';
 
 export const NavMyPageContainer = styled.div`
   display: inline;
@@ -14,9 +12,8 @@ export const MyPageTitle = styled.div`
 margin-top: 3px;
   color : #323232;
   font-family: Nanum Barun Gothic;
-  font-size : 12px;
+  font-size : 8px;
   font-weight: bold;
-
 `;
 
 export const ProfileIcon = styled.img`

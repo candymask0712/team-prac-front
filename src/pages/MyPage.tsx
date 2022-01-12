@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import MyFavorite from "../components/MyFavorite";
 import Profile from "../components/Profile";
+import MyMenu from "../components/MyMenu";
 
 export const MyPageContainer = styled.div`
   display: flex;
@@ -17,6 +18,7 @@ const MyPage = () => {
     <>
       <MyPageContainer>
         <Profile />
+        <MyMenu />
       </MyPageContainer>
     </>
   );

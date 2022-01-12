@@ -26,7 +26,7 @@ const NavList = () => {
   return (
     <NavListContainer>
       <ListIcon src="/icons/list.png"/>
-      {/* <FaThList size="24" color='grey'>상품목록</FaThList> */}
+
       <ListTitle>목록</ListTitle>
     </NavListContainer>
   );

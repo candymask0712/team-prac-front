@@ -28,12 +28,6 @@ export const ProfilePic = styled.img`
 `;
 
 
-
-
-
-
-
-
 const Profile = () => {
   return (
     <ProfileContainer>

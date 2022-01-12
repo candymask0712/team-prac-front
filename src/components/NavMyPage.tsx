@@ -3,10 +3,10 @@ import styled from "styled-components";
 import { darken, lighten } from 'polished';
 
 export const NavMyPageContainer = styled.div`
-  /* display: inline;
+  display: inline;
     height: 50%;
     width: 10%;
-    color : #323232; */
+    color : #323232;
 `;
 
 export const MyPageTitle = styled.div`
